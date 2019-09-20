@@ -1,0 +1,30 @@
+ppython -m pytest
+
+
+Used this command (Mac) to install: ython -m pip install --user 
+
+Used this command (Mac) to install selenium:
+python3 -m pip install selenium --user
+
+
+
+
+
+
+
+
+https://www.techbeamers.com/switch-between-iframes-selenium-python/
+
+https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-option-value-with-selenium-python
+
+https://sqa.stackexchange.com/questions/18342/how-to-handle-dynamic-changing-ids-in-xpath
+
+https://dev.to/razgandeanu/selenium-webdriver-and-dynamic-locators-40b1
+
+https://stackoverflow.com/questions/28110008/python-selenium-wait-until-element-is-clickable-not-working
+
+https://sqa.stackexchange.com/questions/10342/how-to-find-element-using-contains-in-xpath
+
+https://realpython.com/python-thinking-recursively/
+
+https://stackoverflow.com/questions/48665001/can-not-click-on-a-element-elementclickinterceptedexception-in-splinter-selen
