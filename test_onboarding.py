@@ -10,7 +10,7 @@ print("Enter account email:")
 text = input()
 
 browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
-browser.get(server)
+browser.get('https://'+server+'.abcmouse.com')
 
 linkElem = browser.find_element_by_tag_name('login-button')
 linkElem.click()
