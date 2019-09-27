@@ -1,6 +1,9 @@
 import time
 from selenium import webdriver
 
+print("Enter qtest server:")
+server = input()
+
 print("Enter account email:")
 text = input()
 
@@ -11,7 +14,8 @@ def expand_shadow_element(element):
     return shadow_root
 
 #Subscription page
-browser.get('https://www.abcmouse.com/abt/subscription')
+browser.get('https://'+server+'.abcmouse.com/abt/subscription')
+
 root1 = browser.find_element_by_tag_name('subscription-form')
 shadow_root1 = expand_shadow_element(root1)
 
