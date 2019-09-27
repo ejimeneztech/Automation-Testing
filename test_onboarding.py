@@ -3,11 +3,14 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
 
+print("Enter qtest server:")
+server = input()
+
 print("Enter account email:")
 text = input()
 
 browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
-browser.get('https://www.abcmouse.com')
+browser.get(server)
 
 linkElem = browser.find_element_by_tag_name('login-button')
 linkElem.click()
