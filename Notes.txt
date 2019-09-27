@@ -28,3 +28,7 @@ https://sqa.stackexchange.com/questions/10342/how-to-find-element-using-contains
 https://realpython.com/python-thinking-recursively/
 
 https://stackoverflow.com/questions/48665001/can-not-click-on-a-element-elementclickinterceptedexception-in-splinter-selen
+
+https://stackoverflow.com/questions/16399355/refresh-a-local-web-page-using-python
+
+https://stackoverflow.com/questions/13180941/how-to-kill-a-while-loop-with-a-keystroke
