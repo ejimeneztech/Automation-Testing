@@ -32,3 +32,6 @@ https://stackoverflow.com/questions/48665001/can-not-click-on-a-element-elementc
 https://stackoverflow.com/questions/16399355/refresh-a-local-web-page-using-python
 
 https://stackoverflow.com/questions/13180941/how-to-kill-a-while-loop-with-a-keystroke
+
+
+https://www.programiz.com/python-programming/datetime/strftime
