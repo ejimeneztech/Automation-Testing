@@ -4,13 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
 browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
-browser.get('https://ef.qtest.abcmouse.com')
+browser.get('https://du.qtest.abcmouse.com')
 
 linkElem = browser.find_element_by_tag_name('login-button')
 linkElem.click()
 
 emailElem = browser.find_element_by_class_name('login_email')
-emailElem.send_keys('testme@e.test')
+emailElem.send_keys('du2@e.test')
 passwordElem = browser.find_element_by_class_name('login_password')
 passwordElem.send_keys('password')
 
@@ -30,7 +30,18 @@ def test_click_1():
 
 time.sleep(4)
 
-#Test Case 2: User can click on all radio buttons and continue button (split this into two)
+#Test Case 2: User can click on all radio buttons in Step 1 screen
+surveyItems = browser.find_elements_by_class_name('survey-item')
+
+def test_survey_step_1():
+    try:
+        for element in surveyItems:
+            item = element.find_element_by_tag_name('label')
+            browser.execute_script("arugments[0].click();", item)
+    except:
+        print('Survey Options were not clicked.')
+
+#Test Case 3: User can click on continue button in Step 1 screen
 def test_click_2():
     try:
         browser.execute_script('document.querySelector("#survey-2-link").click()')
