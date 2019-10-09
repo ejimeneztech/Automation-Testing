@@ -10,7 +10,7 @@ linkElem = browser.find_element_by_tag_name('login-button')
 linkElem.click()
 
 emailElem = browser.find_element_by_class_name('login_email')
-emailElem.send_keys('du2@e.test')
+emailElem.send_keys('du3@e.test')
 passwordElem = browser.find_element_by_class_name('login_password')
 passwordElem.send_keys('password')
 
@@ -31,9 +31,8 @@ def test_click_1():
 time.sleep(4)
 
 #Test Case 2: User can click on all radio buttons in Step 1 screen
-surveyItems = browser.find_elements_by_class_name('survey-item')
-
 def test_survey_step_1():
+    surveyItems = browser.find_elements_by_class_name('survey-item')
     try:
         for element in surveyItems:
             item = element.find_element_by_tag_name('label')
