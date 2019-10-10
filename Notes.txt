@@ -37,3 +37,5 @@ https://stackoverflow.com/questions/13180941/how-to-kill-a-while-loop-with-a-key
 https://www.programiz.com/python-programming/datetime/strftime
 
 https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
+
+https://sqa.stackexchange.com/questions/41156/how-can-i-make-a-smooth-transition-from-being-a-black-box-tester-to-an-expert-au
