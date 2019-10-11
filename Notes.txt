@@ -41,3 +41,5 @@ https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
 https://sqa.stackexchange.com/questions/41156/how-can-i-make-a-smooth-transition-from-being-a-black-box-tester-to-an-expert-au
 
 https://stackoverflow.com/questions/10978923/how-to-check-if-some-text-is-present-on-a-web-page-using-selenium-2
+
+https://imalittletester.com/2016/05/05/selenium-how-to-correctly-test-whether-an-element-is-displayed-or-not/
