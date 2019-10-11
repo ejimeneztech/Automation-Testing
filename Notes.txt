@@ -43,3 +43,5 @@ https://sqa.stackexchange.com/questions/41156/how-can-i-make-a-smooth-transition
 https://stackoverflow.com/questions/10978923/how-to-check-if-some-text-is-present-on-a-web-page-using-selenium-2
 
 https://imalittletester.com/2016/05/05/selenium-how-to-correctly-test-whether-an-element-is-displayed-or-not/
+
+https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest/29855337
