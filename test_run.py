@@ -1,7 +1,8 @@
 # This is the only file intended to run onboarding test cases
 import time
+import pytest
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException
 
 browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 browser.get('https://du.qtest.abcmouse.com')
@@ -23,17 +24,18 @@ browser.switch_to.frame(iframe)
 
 
 # Test Case 1: User can click on tNc and Privacy Policy
+#Try/except is not working throughout. This should fail but still passes
 def test_tnc():
     try:
-        browser.find_element_by_css_selector('#terms-condition')
-    except:
+        browser.find_element_by_css_selector('#test')
+    except NoSuchElementException:
         print('TnC link missing')
 
 
 def test_pv():
     try:
         browser.find_element_by_css_selector('#privacy-policy')
-    except:
+    except NoSuchElementException:
         print('Privacy Policy link missing')
 
 
