@@ -8,8 +8,11 @@ server = input()
 
 print("Enter account email:")
 text = input()
+#Mac Os
+#browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 
-browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
+#Windows
+browser = webdriver.Chrome()
 browser.get('https://'+server+'.abcmouse.com')
 
 linkElem = browser.find_element_by_tag_name('login-button')

@@ -7,7 +7,11 @@ server = input()
 print("Enter account email:")
 text = input()
 
-browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
+#mac OS
+#browser = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
+
+#Windows
+browser = webdriver.Chrome()
 
 def expand_shadow_element(element):
     shadow_root = browser.execute_script('return arguments[0].shadowRoot', element)
